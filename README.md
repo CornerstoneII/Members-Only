@@ -20,8 +20,6 @@ In this project, we built an exclusive clubhouse where your members can write em
 - Adding gems for extra features
 - Authentication
 
-![screenshot](screenshot.gif)
-
 ## Getting Started
 
 - This app is functional micro post blog with the possibility to create, edit, update and delete posts. To access full functionality, the user should log in, if an account exists, or create one as a new author. The app is connected to the database accordingly.
