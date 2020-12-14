@@ -13,14 +13,7 @@
     </thead>
 
     <tbody>
-        <% @posts.each do |post| %>
-        <tr>
+        <%= anonymous %>
 
-            <%= anonymous %>
-            <td><%= post.title %></td>
-            <td><%= post.body %></td>
-
-        </tr>
-        <% end %>
     </tbody>
 </table>

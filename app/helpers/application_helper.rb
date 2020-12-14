@@ -17,9 +17,26 @@ module ApplicationHelper
 
   def anonymous
     if user_signed_in?
-      render inline: '<td><strong> <%= post.user.email %></strong></td>'
+      render inline: "<% @posts.each do |post| %>
+        <tr>
+
+        <td><strong> <%= post.user.email %></strong></td>
+            <td><%= post.title %></td>
+            <td><%= post.body %></td>
+
+        </tr>
+        <% end %>"
+
     else
-      render inline: '<td><strong>Anonymous</strong></td>'
+      render inline: "<% @posts.each do |post| %>
+      <tr>
+
+      <td><strong> Anonymous</strong></td>
+          <td><%= post.title %></td>
+          <td><%= post.body %></td>
+
+      </tr>
+      <% end %>"
     end
   end
 end
