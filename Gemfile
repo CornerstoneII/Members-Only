@@ -28,6 +28,9 @@ gem 'jbuilder', '~> 2.7'
 # Forms
 gem 'simple_form', '~> 5.0', '>= 5.0.3'
 
+#Use devise for authentication
+gem 'devise', '~> 4.7', '>= 4.7.3'
+
 # Bootstrap
 gem 'bootstrap', '~> 4.5', '>= 4.5.3'
 
