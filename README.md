@@ -62,9 +62,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Igors Oleinikovs**
 
-- GitHub: [@githubhandle](https://github.com/Igors78)
-- Twitter: [@twitterhandle](https://twitter.com/oleinikovs)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/igors-oleinikovs-17a10958/)
+- GitHub: [Igors78](https://github.com/Igors78)
+- Twitter: [@oleinikovs](https://twitter.com/oleinikovs)
+- LinkedIn: [oleinikovsigors](https://www.linkedin.com/in/igors-oleinikovs-17a10958/)
 
 👤 **Oluwaseun Iyadi**
 
