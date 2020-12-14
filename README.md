@@ -1,13 +1,15 @@
-# Blogger
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Ruby on Rails
+# Authentication
 
-Part of the reason Ruby on Rails became popular quickly is that it takes a lot of the hard work off your hands, and that’s especially true in starting up a project. Rails practices the idea of "sensible defaults" and will, with one command, create a working application ready for your customization.
+## Summary
+
+In this project, we built an exclusive clubhouse where your members can write embarrassing posts about non-members. Inside the clubhouse, members can see who the author of a post is but, outside, they can only see the story and wonder who wrote it.
 
 - This is the second application for the Microverse Ruby on Rails curriculum module
-- [Original Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html) from JumpstartLab
+- [Project Specs](https://www.theodinproject.com/courses/ruby-on-rails/lessons/authentication)
 
-### In this project we create a simple blog system and learn the basics of Ruby on Rails including
+### In this project we create a simple Post with Authentication feature to learn the basics of Ruby on Rails including
 
 - Models, Views, and Controllers (MVC)
 - Data Structures & Relationships
@@ -16,16 +18,13 @@ Part of the reason Ruby on Rails became popular quickly is that it takes a lot o
 - Views with forms, partials, and helpers
 - RESTful design
 - Adding gems for extra features
+- Authentication
 
 ![screenshot](screenshot.gif)
 
 ## Getting Started
 
-- This app is functional micropost blog with possibility to create, edit, update and delete authors and their articles, add comments,tags and images to articles. To access full functionality, user should log in, if account exists, or create one as new author. App is connected to database accordingly.
-
-## Live Demo
-
-[Live Demo Link](https://blog-app-set.herokuapp.com/)
+- This app is functional micro post blog with the possibility to create, edit, update and delete posts. To access full functionality, the user should log in, if an account exists, or create one as a new author. The app is connected to the database accordingly.
 
 ## On your Computer
 
@@ -43,10 +42,11 @@ To get a local copy up and running follow these simple example steps.
 ## Install
 
 - Go to your preferred directory
-- Run `git clone https://github.com/Igors78/Blogger.git` command
+- Run `git clone https://github.com/CornerstoneII/Members-Only.git` command
 - Install Rails with all dependencies in order to run local server and app in it:
 - `install Rails`
 - `bundle install`
+- `rails db:migrate`
 
 ## Usage
 
@@ -58,15 +58,21 @@ To get a local copy up and running follow these simple example steps.
 
 - Ruby 2.7.0
 - Ruby on Rails 6.0.3.4
-- CSS/SCSS
+- Bootstrap
 
-## Author
+## Authors
 
 👤 **Igors Oleinikovs**
 
 - GitHub: [@githubhandle](https://github.com/Igors78)
 - Twitter: [@twitterhandle](https://twitter.com/oleinikovs)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/igors-oleinikovs-17a10958/)
+
+👤 **Oluwaseun Iyadi**
+
+- Github: [@CornerstoneII](https://github.com/CornerstoneII)
+- Twitter: [@It_Iz_I](https://twitter.com/It_Iz_I)
+- Linkedin: [Oluwaseun Iyadi](https://www.linkedin.com/in/oluwaseun-iyadi-773584b4/)
 
 ## 🤝 Contributing
 
@@ -81,7 +87,6 @@ Give a ⭐️ if you like this project!
 - Ruby documentation
 - [Ruby Guides](https://www.rubyguides.com/)
 - [Michael Hartl](https://www.michaelhartl.com/)
-- [JumpstartLab](http://tutorials.jumpstartlab.com/projects/blogger.html)
 
 ## 📝 License
 
