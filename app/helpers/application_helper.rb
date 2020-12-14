@@ -14,4 +14,12 @@ module ApplicationHelper
         <%= link_to 'Login', new_user_session_path, :class => 'navbar-link'  %>"
     end
   end
+
+  def anonymous
+    if user_signed_in?
+      render inline: '<td><strong> <%= post.user.email %></strong></td>'
+    else
+      render inline: '<td><strong>Anonymous</strong></td>'
+    end
+  end
 end

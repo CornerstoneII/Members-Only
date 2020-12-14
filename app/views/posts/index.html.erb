@@ -16,11 +16,7 @@
         <% @posts.each do |post| %>
         <tr>
 
-            <% if user_signed_in? %>
-            <td><strong> <%= post.user.email %></strong></td>
-            <% else %>
-            <td><strong>Anonymous</strong></td>
-            <%end%>
+            <%= anonymous %>
             <td><%= post.title %></td>
             <td><%= post.body %></td>
 
